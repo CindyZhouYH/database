@@ -7,6 +7,14 @@ import java.sql.*;
 
 public class connect {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
+        //加载驱动
+        Class.forName("com.mysql.jdbc.Driver");
+        // y哦那个互信息
+        String url = "jdbc:mysql://127.0.0.1:3306/interpersonal_relationship?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
+        String username="root";
+        String password="root";
+        // 连接
+
         Connection conn= JdbcUtils.getConnection();
         String sql="insert into user(`id`,`username`,`name`,`email`,`key`)values(?,?,?,?,?)";
         PreparedStatement st=conn.prepareStatement(sql);

@@ -7,16 +7,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbedf4cf-44db-4470-bee9-e1f9f2763f0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/relation/controller/BirthFamilyInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/relation/controller/BirthFamilyInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/relation/dao/dbBirthInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/relation/dao/dbBirthInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/relation/dao/dbFamily.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/relation/dao/dbFamily.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/fontello/css/animation.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/fontello/css/animation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/fontello/css/fontello-embedded(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/fontello/css/fontello-embedded(1).css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/fontello/css/fontello-ie7.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/fontello/css/fontello-ie7.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/fontello/css/fontello.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/fontello/css/fontello.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/login_layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/login_layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/media-queries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/register_layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/register_layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/user_center.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/user_center.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/user_center_layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/css/user_center_layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/js/jquery-3.1.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/register_1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/register_1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/register_2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/register_2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/user_center.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bighomework_war_exploded/user_center.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/relation/controller/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/relation/controller/Delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/relation/controller/EntranceSchoolInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/relation/controller/EntranceSchoolInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/relation/controller/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/relation/controller/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/relation/controller/PersonalCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/relation/controller/PersonalCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/relation/controller/updateInfor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/relation/controller/updateInfor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/relation/dao/connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/relation/dao/connect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/relation/dao/dbEntranceInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/relation/dao/dbEntranceInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/relation/dao/dbUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/relation/dao/dbUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/relation/dao/utils/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/relation/dao/utils/JdbcUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/relation/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/relation/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/relation/pojo/BirthInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/relation/pojo/BirthInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/relation/pojo/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/relation/pojo/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/relation/pojo/SchoolNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/relation/pojo/SchoolNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/relation/pojo/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/relation/pojo/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/relation/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/relation/service/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/WEB-INF/jsp/1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/fontello/css/animation.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/fontello/css/animation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/fontello/css/fontello-embedded(1).css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/fontello/css/fontello-embedded(1).css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/fontello/css/fontello-ie7.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/fontello/css/fontello-ie7.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/fontello/css/fontello.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/fontello/css/fontello.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/fonts/montserrat/montserrat-bold-demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/fonts/montserrat/montserrat-regular-demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/login_1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/login_layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/login_layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/media-queries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/prettyPhoto.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/register_layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/register_layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/user_center.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/user_center.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/user_center_layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/user_center_layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/jquery-3.1.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/register_1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/register_1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/register_2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/register_2.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/testbirthinfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/testbirthinfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user_center.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user_center.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +88,7 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -206,7 +267,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605426065350</updated>
-      <workItem from="1605426068257" duration="6245000" />
+      <workItem from="1605426068257" duration="7962000" />
     </task>
     <servers />
   </component>
@@ -226,54 +287,54 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605426345225" />
-    <state width="845" height="171" key="GridCell.Tab.0.bottom" timestamp="1605432341034">
+    <state width="845" height="171" key="GridCell.Tab.0.bottom" timestamp="1605434167906">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="845" height="171" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605432341034" />
-    <state width="845" height="171" key="GridCell.Tab.0.center" timestamp="1605432341034">
+    <state width="845" height="171" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605434167906" />
+    <state width="845" height="171" key="GridCell.Tab.0.center" timestamp="1605434167906">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="845" height="171" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605432341034" />
-    <state width="845" height="171" key="GridCell.Tab.0.left" timestamp="1605432341034">
+    <state width="845" height="171" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605434167906" />
+    <state width="845" height="171" key="GridCell.Tab.0.left" timestamp="1605434167906">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="845" height="171" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605432341034" />
-    <state width="845" height="171" key="GridCell.Tab.0.right" timestamp="1605432341034">
+    <state width="845" height="171" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605434167906" />
+    <state width="845" height="171" key="GridCell.Tab.0.right" timestamp="1605434167906">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="845" height="171" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605432341034" />
-    <state width="845" height="171" key="GridCell.Tab.1.bottom" timestamp="1605432341034">
+    <state width="845" height="171" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605434167906" />
+    <state width="845" height="171" key="GridCell.Tab.1.bottom" timestamp="1605434167906">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="845" height="171" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605432341034" />
-    <state width="845" height="171" key="GridCell.Tab.1.center" timestamp="1605432341034">
+    <state width="845" height="171" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605434167906" />
+    <state width="845" height="171" key="GridCell.Tab.1.center" timestamp="1605434167906">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="845" height="171" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1605432341034" />
-    <state width="845" height="171" key="GridCell.Tab.1.left" timestamp="1605432341034">
+    <state width="845" height="171" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1605434167906" />
+    <state width="845" height="171" key="GridCell.Tab.1.left" timestamp="1605434167906">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="845" height="171" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1605432341034" />
-    <state width="845" height="171" key="GridCell.Tab.1.right" timestamp="1605432341034">
+    <state width="845" height="171" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1605434167906" />
+    <state width="845" height="171" key="GridCell.Tab.1.right" timestamp="1605434167906">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="845" height="171" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1605432341034" />
-    <state width="845" height="171" key="GridCell.Tab.2.bottom" timestamp="1605432341034">
+    <state width="845" height="171" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1605434167906" />
+    <state width="845" height="171" key="GridCell.Tab.2.bottom" timestamp="1605434167906">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="845" height="171" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605432341034" />
-    <state width="845" height="171" key="GridCell.Tab.2.center" timestamp="1605432341034">
+    <state width="845" height="171" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605434167906" />
+    <state width="845" height="171" key="GridCell.Tab.2.center" timestamp="1605434167906">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="845" height="171" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1605432341034" />
-    <state width="845" height="171" key="GridCell.Tab.2.left" timestamp="1605432341034">
+    <state width="845" height="171" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1605434167906" />
+    <state width="845" height="171" key="GridCell.Tab.2.left" timestamp="1605434167906">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="845" height="171" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1605432341034" />
-    <state width="845" height="171" key="GridCell.Tab.2.right" timestamp="1605432341034">
+    <state width="845" height="171" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1605434167906" />
+    <state width="845" height="171" key="GridCell.Tab.2.right" timestamp="1605434167906">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="845" height="171" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1605432341034" />
+    <state width="845" height="171" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1605434167906" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1605426373966">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

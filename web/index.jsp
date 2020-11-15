@@ -24,32 +24,31 @@
   ================================================== -->
   <script src="js/modernizr.js"></script>
   <script src="js/jquery-3.1.1.min.js"></script>
-    <script >
-        function judgeState() {
-           //document.getElementById("usercenter_state").innerHTML = "UserCenter";
-            $.ajax({
-                type: "post",
-                url: "${pageContext.request.contextPath}/user/checkLoginState",
-                data: {},
-                success: function (data) {
-                    var msg = JSON.parse(data);
-                    console.log(msg.state);
-                    var state = msg.state;
-                    if(state=="1"){
-                        document.getElementById("usercenter_state").innerHTML = "UserCenter";
-                    }else{
-                        document.getElementById("login_state").innerHTML = "login";
-                        document.getElementById("register_state").innerHTML = "register";
-                    }
-                },
-                error: function (data) {
-                    alert("error");
-                    console.log(data);
-                }
-            });
-
+  <script >
+    function judgeState() {
+      //document.getElementById("usercenter_state").innerHTML = "UserCenter";
+      $.ajax({
+        type: "post",
+        url: "${pageContext.request.contextPath}/user/checkLoginState",
+        data: {},
+        success: function (data) {
+          var msg = JSON.parse(data);
+          console.log(msg.state);
+          var state = msg.state;
+          if(state=="1"){
+            document.getElementById("usercenter_state").innerHTML = "UserCenter";
+          }else{
+            document.getElementById("login_state").innerHTML = "login";
+            document.getElementById("register_state").innerHTML = "register";
+          }
+        },
+        error: function (data) {
+          alert("error");
+          console.log(data);
         }
-    </script>
+      });
+    }
+  </script>
 </head>
 <body onload="judgeState()">
 <%--<div id="preloader">--%>

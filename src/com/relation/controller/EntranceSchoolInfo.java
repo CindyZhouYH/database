@@ -106,7 +106,7 @@ public class EntranceSchoolInfo {
         User user= (User) sess.getAttribute("user");
         EntranceInformation ei=new EntranceInformation(user.getId(),checkSchool.getId(),Integer.parseInt(year));
         System.out.println(ei);
-        boolean ans = Service.EntranceInformationService.addInfo(user,checkSchool,ei);
+        boolean ans= Service.EntranceInformationService.addInfo(user,checkSchool,ei);
         return ans;
     }
 }

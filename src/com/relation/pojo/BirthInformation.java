@@ -12,7 +12,8 @@ public class BirthInformation {
     }
 
     public BirthInformation(int user_id, int patriarchal_family_id, int maternal_family_id, int year) {
-        this.id = totalNum++;
+        totalNum++;
+        this.id = totalNum;
         this.user_id = user_id;
         this.patriarchal_family_id = patriarchal_family_id;
         this.maternal_family_id = maternal_family_id;

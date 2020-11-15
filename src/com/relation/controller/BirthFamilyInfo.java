@@ -1,18 +1,18 @@
 package com.relation.controller;
-import com.relation.pojo.BirthInformation;
-import com.relation.pojo.Family;
-import com.relation.pojo.User;
-import com.relation.service.Service;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+        import com.relation.pojo.BirthInformation;
+        import com.relation.pojo.Family;
+        import com.relation.pojo.User;
+        import com.relation.service.Service;
+        import org.springframework.stereotype.Controller;
+        import org.springframework.ui.Model;
+        import org.springframework.web.bind.annotation.RequestMapping;
+        import org.springframework.web.bind.annotation.RequestParam;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-import java.io.IOException;
-import java.sql.SQLException;
+        import javax.servlet.http.HttpServletRequest;
+        import javax.servlet.http.HttpServletResponse;
+        import javax.servlet.http.HttpSession;
+        import java.io.IOException;
+        import java.sql.SQLException;
 
 @Controller
 @RequestMapping("/birthinfo")
@@ -36,13 +36,16 @@ public class BirthFamilyInfo {
         if(family1 == null){
             family1=new Family(father_name, father_place);
             Service.FamilyService.addFamily(family1);
+            System.out.println("add father family");
         }
         Family family2 = Service.FamilyService.searchFamily(mother_name, mother_place);
         if(family2 == null){
             family2=new Family(mother_name, mother_place);
             Service.FamilyService.addFamily(family2);
+            System.out.println("add mother family");
         }
         Service.BirthInfoService.addBirthInfo(new BirthInformation(user.getId(),family1.getId(), family2.getId(), Integer.parseInt(year)));
+        System.out.println("add birthinfo");
         return "redirect:/index.jsp";
     }
 }

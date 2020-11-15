@@ -26,8 +26,8 @@ public class dbBirthInformation {
             st=conn.prepareStatement(sql);     //预编译
             st.setInt(1,birthInformation.getId());
             st.setInt(2,birthInformation.getUser_id());
-            st.setInt(3,birthInformation.getMaternal_family_id());
-            st.setInt(4,birthInformation.getPatriarchal_family_id());
+            st.setInt(3,birthInformation.getPatriarchal_family_id());
+            st.setInt(4,birthInformation.getMaternal_family_id());
             st.setInt(5,birthInformation.getYear());
             st.executeUpdate();
             conn.commit();

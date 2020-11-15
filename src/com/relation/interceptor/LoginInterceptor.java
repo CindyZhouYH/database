@@ -21,10 +21,7 @@ public class LoginInterceptor implements HandlerInterceptor {
         if(sess.getAttribute("user")!=null){
             return true;
         }
-        if(httpServletRequest.getRequestURI().contains("user_center.jsp")){
-            return true;
-        }
-        httpServletResponse.sendRedirect("../login.jsp");
+        httpServletResponse.sendRedirect("/login.jsp");
         return false;
     }
 }

@@ -48,7 +48,7 @@ public class dbFamily {
             conn.commit();
             Family returnFamily=null;
             while(rs.next()){
-                returnFamily=new Family(Integer.parseInt(rs.getObject("id").toString()), rs.getObject("name").toString(), rs.getObject("place").toString());
+                returnFamily=new Family(Integer.parseInt(rs.getObject("id").toString()), rs.getObject("family_name").toString(), rs.getObject("place").toString());
             }
             return returnFamily;
         }catch(SQLException e){

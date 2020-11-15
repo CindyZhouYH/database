@@ -10,7 +10,8 @@ public class Family {
     }
 
     public Family(String family_name, String place) {
-        this.id = totalNum++;
+        totalNum++;
+        this.id = totalNum;
         this.family_name = family_name;
         this.place = place;
     }

@@ -26,6 +26,10 @@ public class Service {
         public static int getMaxId() throws SQLException {
             return dbe.getMaxId();
         }
+
+        public static ArrayList<Integer> getClassmatesEntranceInfo(EntranceInformation e) throws SQLException {
+            return dbe.getClassmatesEntranceInfo(e);
+        }
     }
 
     public static class SchoolService {
@@ -76,6 +80,10 @@ public class Service {
         public static int getMaxId() throws SQLException {
             return dbuser.getMaxId();
         }
+
+        public static User getUserThroughId(Integer id) throws SQLException {
+            return dbuser.getUserThroughId(id);
+        }
     }
 
     public static class FamilyService {
@@ -95,6 +103,14 @@ public class Service {
 
         public static boolean addBirthInfo(BirthInformation b) throws SQLException {
             return dbbirth.addBirthInfo(b);
+        }
+
+        public static BirthInformation getBirthInfo(Integer user_id) throws SQLException {
+            return dbbirth.getBirthInfo(user_id);
+        }
+
+        public static ArrayList<BirthInformation> getBrotherThroughFamilyId(Integer id) throws SQLException {
+            return dbbirth.getBrotherThroughFamilyId(id);
         }
     }
 }
